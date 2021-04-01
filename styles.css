@@ -1,0 +1,51 @@
+* {
+  font-family: "Kiwi Maru", serif;
+  margin: 0;
+}
+
+footer {
+  background: var(--nord2);
+}
+
+h1,
+h2,
+h3,
+p {
+  color: white;
+}
+
+body {
+  background-color: var(--nord0);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background: var(--nord1);
+}
+
+@media only screen and (min-width: 960px) {
+  main {
+    width: 960px;
+  }
+}
+
+main {
+    margin: 0 auto;
+}
+
+.content {
+    margin: 16px;
+    padding: 16px;
+    border-radius: 16px;
+    background: var(--nord1);
+  }
+
+main h2 {
+  text-align: center;
+  margin: 8px;
+}
+
+a {
+  color: var(--nord7);
+}
